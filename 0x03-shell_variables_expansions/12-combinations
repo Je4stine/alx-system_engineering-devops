@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a..z}{a..z} | awk '{gsub("oo ", ""); gsub(" ","\n"); print}'
